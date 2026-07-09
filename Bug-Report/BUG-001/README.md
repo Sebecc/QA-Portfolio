@@ -1,4 +1,4 @@
-# Startup Crash - Browser RPG Game Flesh, Blood & Concrete
+# Startup Crash - Browser RPG Game "Flesh, Blood & Concrete"
 
 ## Summary
 The game crashes immediately after launch and displays a JavaScript error message instead of loading the main menu.
