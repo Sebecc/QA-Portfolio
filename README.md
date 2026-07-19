@@ -1,11 +1,11 @@
 # QA-Portfolio
 Portfolio of game bug reports and QA documentation.
 
-# Game QA Portfolio
+# QA Portfolio
 
 Hello! My name is Sebastian and I am an aspiring Game QA Tester with a background in Game Design and technical troubleshooting.
 
-This repository contains examples of bug reports and testing documentation created as part of my journey toward a professional career in Game Quality Assurance.
+This repository contains examples of bug reports and testing documentation created as part of my journey toward a professional career in Quality Assurance.
 
 ## Skills demonstrated
 - Bug reporting
