@@ -38,10 +38,10 @@ Verify that each book contains all required fields
 ### Expected result
 
 Each object contains:
--id
--name
--type
--available
+- id
+- name
+- type
+- available
 
 --- 
 
@@ -57,5 +57,5 @@ Verify that field values are valid
 
 ### Expected result
 
--available contains only true or false
+- available contains only true or false
 - type contains only fiction or non-fiction
