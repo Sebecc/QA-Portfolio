@@ -17,10 +17,10 @@ Verify that the API returns status 201 Created
 ### Steps
 
 1. Provide body information in JSON format e.g
-{
-   "clientName": "Sebastian",
-   "clientEmail": "Sebastian@example.com"
-}
+{<br>
+   "clientName": "Sebastian",<br>
+   "clientEmail": "Sebastian@example.com"<br>
+}<br>
 2. Send /api-clients request
 
 ### Expected results
