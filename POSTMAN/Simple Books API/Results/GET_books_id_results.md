@@ -10,4 +10,5 @@ The endpoints were successfully tested
 
 All negative tests scenarios passed 
 
-![GET Books id 0](POSTMAN/Simple Books API/Screenshots/GET_books_id_0_respone.png)
+![GET /books/0 response](../Screenshots/GET_books_id_0_response.png)
+![GET /books/abc response](../Screenshots/GET_books_id_abc_response.png)
