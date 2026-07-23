@@ -3,7 +3,7 @@
 ---
 ## Objective 
 
-Testing negative test scenarios
+Verify that the API correctly handles invalid book identifiers.
 
 ---
 
@@ -13,7 +13,7 @@ Verify that API returns HTTP 404 Not Found to non-existing id
 
 ### Steps
 
-1. Send GET /books/id/0 request
+1. Send GET /books/0 request
 
 ### Expected result
 
@@ -27,7 +27,7 @@ Verify that API returns HTTP 400 Bad Request to invalid id format
 
 ### Steps
 
-1. Send GET /books/id/abc request
+1. Send GET /books/abc request
 
 ### Expected result 
 
