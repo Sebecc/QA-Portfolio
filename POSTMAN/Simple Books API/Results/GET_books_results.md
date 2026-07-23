@@ -22,4 +22,4 @@ All positive test scenarios passed
 
 No issues found
 
-![GET Books](../Screenshots/GET_books.png)
+![GET Books](../Screenshots/GET_books_response.png)
