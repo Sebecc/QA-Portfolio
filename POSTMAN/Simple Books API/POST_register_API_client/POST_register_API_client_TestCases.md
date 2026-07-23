@@ -17,7 +17,7 @@ Verify that the API returns status 201 Created
 ### Steps
 
 1. Provide body information in JSON format e.g<br>
-{
+{<br>
    "clientName": "Sebastian",<br>
    "clientEmail": "Sebastian@example.com"<br>
 }<br>
@@ -38,7 +38,7 @@ Verify that the API returns status 409 Conflict
 ### Steps
 
 1. Provide body information with same data from previous step in JSON format e.g<br>
-{
+{<br>
    "clientName": "Sebastian",<br>
    "clientEmail": "Sebastian@example.com"<br>
 }<br>
@@ -58,8 +58,8 @@ Verify what happen when "clientName" is number format instead of text
 
 ### Steps
 
-1. Provide body information in JSON format e.g
-<br>{
+1. Provide body information in JSON format e.g<br>
+{
    "clientName": Sebastian,<br>
    "clientEmail": "Sebastian@example.com"<br>
 }<br>
@@ -81,7 +81,7 @@ Verify what happen when mail doesn't have proper syntax
 ### Steps
 
 1. Provide body information in JSON format e.g<br>
-{
+{<br>
    "clientName": "Mariola",<br>
    "clientEmail": "Sebastiandas.com"<br>
 }<br>
@@ -103,7 +103,7 @@ Verify that the API returns status 201 Created
 ### Steps
 
 1. Provide body information in JSON format e.g<br>
-{
+{<br>
    "clientName": "Sebastian",<br>
    "clientEmail": "Sebastian@example.com"<br>
 }<br>
