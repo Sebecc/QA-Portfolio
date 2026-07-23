@@ -21,3 +21,5 @@ The ednpoint was successfully tested
 All positive test scenarios passed
 
 No issues found
+
+![GET Books](../Screenshots/GET_books.png)
