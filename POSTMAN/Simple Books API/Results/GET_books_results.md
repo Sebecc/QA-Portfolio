@@ -2,7 +2,7 @@
 
 ## Summary
 
-The ednpoint was successfully tested
+The endpoint was successfully tested
 
 ### Verified
 
