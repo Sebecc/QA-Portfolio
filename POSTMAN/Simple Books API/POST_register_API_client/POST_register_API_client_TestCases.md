@@ -94,17 +94,17 @@ Verify what happen when mail doesn't have proper syntax
 
 ---
 
-## Test Case 1
+## Test Case 5
 
 ### Objective 
 
-Verify that the API returns status 201 Created
+Verify what heppen when enter very long name and if there condition for its length
 
 ### Steps
 
 1. Provide body information in JSON format e.g<br>
 {<br>
-   "clientName": "Sebastian",<br>
+   "clientName": "verylongnameeeeeeeeeeeeeeee",<br>
    "clientEmail": "Sebastian@example.com"<br>
 }<br>
 2. Send /api-clients request
@@ -112,5 +112,6 @@ Verify that the API returns status 201 Created
 ### Expected results
 
 - Status code is 201 Created
+- Status code is 400 Bad Request if too long name?
 
 ---
