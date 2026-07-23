@@ -10,6 +10,6 @@ The endpoints were successfully tested
 
 All negative tests scenarios passed 
 
-![GET /books/id/0](../Screenshots/GET_books_id_0_response.png)
-![GET /books/id/0](../Screenshots/GET_books_id_abc_response.png)
+![GET Books](../Screenshots/GET_books_response.png)
+
 
