@@ -12,7 +12,7 @@ The issue occurs when attempting to calculate the travel distance using an exter
 
 | Property | Value |
 |----------|-------|
-| OS | Windows 10 |
+| OS | Windows 11 |
 | Browser | Google Chrome |
 | Testing type | Manual Testing |
 | Tools | Chrome DevTools (Network, Application) |
@@ -64,8 +64,6 @@ The calculated distance should be returned to the application.
 
 The external service displays an **Access Denied** page.
 
-After returning to the application, an error message appears informing about a network connection problem.
-
 The settlement process cannot be completed.
 
 ---
@@ -91,17 +89,16 @@ Please repeat the last action or refresh the page.
 
 The repository contains screenshots documenting the complete scenario.
 
-Suggested structure:
+Screenshots:
 
 ```
-screenshots/
 ├── 01_main_menu.png
 ├── 02_task_list.png
-├── 03_business_trip_form.png
-├── 04_click_check_distance.png
-├── 05_access_denied.png
-├── 06_network_requests.png
-├── 07_browser_storage.png
+├── 03_click_check_distance.png
+├── 04_network_connetion_occured.png
+├── 05_access_denied_session_storage.png
+├── 06_access_denied_local_storage
+├── 07_browser_cookies.png
 ```
 
 ---
