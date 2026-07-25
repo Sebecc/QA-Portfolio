@@ -1,15 +1,3 @@
-## Privacy Notice
+## Note
 
-Some information visible in the screenshots has been intentionally blurred or anonymized to protect confidential data.
-
-The following information has been redacted:
-
-- company name
-- employee names
-- user identifiers
-- process identifiers
-- locations
-- internal URLs
-- other sensitive business information
-
-The redactions do not affect the understanding of the reported issue or the reproduced test scenario.
+Some elements visible in the screenshots have been intentionally blurred or anonymized to protect confidential company and user information. These modifications do not affect the bug reproduction process or the presented analysis.
