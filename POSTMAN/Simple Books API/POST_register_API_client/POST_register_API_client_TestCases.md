@@ -16,11 +16,13 @@ Verify that the API returns status 201 Created
 
 ### Steps
 
-1. Provide body information in JSON format e.g<br>
-{<br>
-   "clientName": "Sebastian",<br>
-   "clientEmail": "Sebastian@example.com"<br>
-}<br>
+1. Provide body information in JSON format e.g
+```json
+{
+   "clientName": "Sebastian",
+   "clientEmail": "Sebastian@example.com"
+}
+```
 2. Send /api-clients request
 
 ### Expected results
@@ -37,11 +39,13 @@ Verify that the API returns status 409 Conflict
 
 ### Steps
 
-1. Provide body information with same data from previous step in JSON format e.g<br>
-{<br>
-   "clientName": "Sebastian",<br>
-   "clientEmail": "Sebastian@example.com"<br>
-}<br>
+1. Provide body information with same data from previous step in JSON format e.g
+```json
+{
+   "clientName": "Sebastian",
+   "clientEmail": "Sebastian@example.com"
+}
+```
 2. Send /api-clients request
 
 ### Expected results
@@ -58,11 +62,13 @@ Verify what happen when "clientName" is number format instead of text
 
 ### Steps
 
-1. Provide body information in JSON format e.g<br>
+1. Provide body information in JSON format e.g
+```json
 {
-   "clientName": Sebastian,<br>
-   "clientEmail": "Sebastian@example.com"<br>
-}<br>
+   "clientName": Sebastian,
+   "clientEmail": "Sebastian@example.com"
+}
+```
 2. Send /api-clients request
 
 ### Expected results
@@ -80,11 +86,13 @@ Verify what happen when mail doesn't have proper syntax
 
 ### Steps
 
-1. Provide body information in JSON format e.g<br>
-{<br>
-   "clientName": "Mariola",<br>
-   "clientEmail": "Sebastiandas.com"<br>
-}<br>
+1. Provide body information in JSON format e.g
+```json
+{
+   "clientName": "Mariola",
+   "clientEmail": "Sebastiandas.com"
+}
+```
 2. Send /api-clients request
 
 ### Expected results
@@ -102,11 +110,13 @@ Verify what heppen when enter very long name and if there condition for its leng
 
 ### Steps
 
-1. Provide body information in JSON format e.g<br>
-{<br>
-   "clientName": "verylongnameeeeeeeeeeeeeeee",<br>
-   "clientEmail": "Sebastian@example.com"<br>
-}<br>
+1. Provide body information in JSON format e.g
+```json
+{
+   "clientName": "verylongnameeeeeeeeeeeeeeee",
+   "clientEmail": "Sebastian@example.com"
+}
+```
 2. Send /api-clients request
 
 ### Expected results
