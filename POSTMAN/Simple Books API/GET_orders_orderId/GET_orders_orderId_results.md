@@ -78,18 +78,6 @@ The endpoint was successfully tested in 6/7 scenarios
 }
 ```
 
-## Test Case 4b
-
-# Result
-
-- Status Code is 500 Internal Server Error
-- Respones body contains:
-```json
-{
-    "error": "Internal Server Error."
-}
-```
-
 ## Test Case 5
 
 # Result
@@ -102,19 +90,7 @@ The endpoint was successfully tested in 6/7 scenarios
 }
 ```
 
-## Test Case 5
-
-# Result
-
-- Status Code is 404 Not Found
-- Respones body contains:
-```json
-{
-    "error": "No order with id 9SoBrQX0LeIW4v4ibeTe."
-}
-```
-
-## Test Case 5
+## Test Case 6
 
 # Result
 
