@@ -10,20 +10,19 @@ Verify that PATCH /orders/{orderId} correctly changes order details and properly
 
 ### Objective 
 
-Verify that the API returns status 204 No Content for a valid order and changes details
+Verify that the API rejects an empty customerName
 
 ### Preconditions
 
 - API is available
 - Valid authorization token is available
 - Order exists
-- Existing details that can be changed
 
 ### Steps
 
 1. Copy one of "id" from Get all orders request
 2. Paste the "id" into PATCH /orders/{orderId}
-3. Send /orders/{orderId} request
+3. Send PATCH /orders/{orderId}
 
 ### Expected result
 
@@ -32,7 +31,11 @@ Verify that the API returns status 204 No Content for a valid order and changes 
 ```json
 
 ```
+
+### Validation
+
 - Get validation from GET /orders/{orderId} that name is changed
+
 ---
 
 
@@ -47,7 +50,6 @@ Verify that the API returns Status 400 Bad Request after changing details withou
 - API is available
 - Valid authorization token is not available
 - Order exists
-- Existing details that can be changed
 
 ### Steps
 
@@ -57,11 +59,11 @@ Verify that the API returns Status 400 Bad Request after changing details withou
   "customerName": ""
 }
 ```
-2. Send /orders/orderId request
+2. Send PATCH /orders/orderId
 
 ### Expected Result
 
-- API returns Status 400 Bad Request
+- API rejects invalid request.
 
 ---
 
@@ -69,13 +71,12 @@ Verify that the API returns Status 400 Bad Request after changing details withou
 
 ### Objective
 
-Verify that the API returns Status 400 Bad Request after changing details only into digits
+Verify that the API rejects numeric value for customerName.
 
 ### Preconditions 
 - API is available
 - Valid authorization token is available
 - Order exists
-- Existing details that can be changed
 
 ### Steps
 
@@ -85,10 +86,144 @@ Verify that the API returns Status 400 Bad Request after changing details only i
   "customerName": 123
 }
 ```
-2. Send /orders/orderId request
+2. Send PATCH /orders/orderId
 
 ### Expected Result
 
-- API returns Status 400 Bad Request or 
+- API rejects invalid request
+
+### Validation
+
+- Get validation from GET /orders/{orderId} that name is changed
 
 ---
+
+## Test Case 4
+
+### Objective
+
+Verify that the API rejects boolean value for customerName.
+
+### Preconditions 
+
+- API is available
+- Valid authorization token is available
+- Order exists
+
+### Steps
+
+1. Request body should in JSON format in following order:
+```json
+{
+  "customerName": true
+}
+```
+2. Send PATCH /orders/orderId
+
+### Expected Result
+
+- API rejects invalid request
+
+### Validation
+
+- Get validation from GET /orders/{orderId} that name is changed
+
+---
+
+## Test Case 5 
+
+### Objective
+
+Verify that the API rejects a request with a non-existing order ID.
+
+### Preconditions 
+
+- API is available
+- Valid authorization token is available
+- Order exists
+
+### Steps
+
+1. Set orderId in the endpoint to a non-existing value.
+2. Send PATCH /orders/{orderId} request.
+
+### Expected Result
+
+- API response is Status 404 Not Found
+- - Response body contains an appropriate error message indicating that the order was not found.
+ 
+---
+
+## Test Case 6
+
+### Objective
+
+Verify that the API rejects a request JSON format is empty.
+
+### Preconditions 
+
+- API is available
+- Valid authorization token is available
+- Order exists
+
+### Steps
+
+1. Request body should in JSON format in following order:
+```json
+{
+
+}
+```
+2. Send PATCH /orders/orderId
+
+### Expected Result
+
+- API response is Status 400 Bad Request
+- - Response body contains an appropriate error message indicating that the order has no valid fields to update.
+ 
+---
+
+## Test Case 7
+
+### Objective
+
+Verify that the API rejects a request when token is not valid.
+
+### Preconditions 
+- API is available
+- Invalid authorization token is available
+- Order exists
+
+### Steps
+1. Set token into into invalid token.
+2. Send PATCH /orders/{orderId} request.
+
+### Expected Result
+
+- API response is Status 401 Unauthorized
+- - Response body contains an appropriate error message indicating that the user has invalid token.
+ 
+---
+
+## Test Case 8
+
+### Objective
+
+Verify that the API rejects a request with a non-existing order ID.
+
+### Preconditions 
+- API is available
+- Valid authorization token is available
+- Order exists
+
+### Steps
+1. Roveke access token
+2. Send PATCH /orders/{orderId} request.
+
+### Expected Result
+
+- API response is Status 401 Unauthorized
+- - Response body contains an appropriate error message indicating that the token is not available.
+ 
+---
+
