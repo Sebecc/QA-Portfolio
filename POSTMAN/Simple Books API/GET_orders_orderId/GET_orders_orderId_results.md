@@ -2,7 +2,7 @@
 
 ## Summary
 
-The endpoint was successfully tested in 6/7 scenarios
+Verify that GET /orders/{orderId} correctly returns order details and properly handles authorization and invalid input scenarios.
 
 ## Verified
 
