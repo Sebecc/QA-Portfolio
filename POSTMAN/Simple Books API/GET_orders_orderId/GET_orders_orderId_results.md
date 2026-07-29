@@ -77,6 +77,13 @@ Verify that GET /orders/{orderId} correctly returns order details and properly h
     "error": "Internal Server Error."
 }
 ```
+- Observed behavior
+
+    - API returned 500 Internal Server Error.
+
+- Expected behavior
+
+    - API should return 400 Bad Request or 404 Not Found because the request contains an invalid path parameter.
 
 ## Test Case 5
 
