@@ -64,6 +64,9 @@ Verify that body returns all values
 ### Expected result
 
 - Status code is 200 OK
-- Body format contains 'id', 'bookId', 'customerName', 'quantity' and 'timestamp' in all orders
+- Body format contains:
+  ```
+   "id", "bookId", "customerName", "quantity" and "timestamp" in all orders
+  ```
 
 ---
