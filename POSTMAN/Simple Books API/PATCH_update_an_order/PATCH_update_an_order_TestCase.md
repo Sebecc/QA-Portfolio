@@ -150,7 +150,7 @@ Verify that the API rejects a request with a non-existing order ID.
 ### Expected Result
 
 - API response is Status 404 Not Found
-- - Response body contains an appropriate error message indicating that the order was not found.
+  - Response body contains an appropriate error message indicating that the order was not found.
  
 ---
 
@@ -179,7 +179,7 @@ Verify that the API rejects a request JSON format is empty.
 ### Expected Result
 
 - API response is Status 400 Bad Request
-- - Response body contains an appropriate error message indicating that the order has no valid fields to update.
+  - Response body contains an appropriate error message indicating that the order has no valid fields to update.
  
 ---
 
@@ -201,7 +201,7 @@ Verify that the API rejects a request when token is not valid.
 ### Expected Result
 
 - API response is Status 401 Unauthorized
-- - Response body contains an appropriate error message indicating that the user has invalid token.
+  - Response body contains an appropriate error message indicating that the user has invalid token.
  
 ---
 
@@ -223,7 +223,7 @@ Verify that the API rejects a request with a non-existing order ID.
 ### Expected Result
 
 - API response is Status 401 Unauthorized
-- - Response body contains an appropriate error message indicating that the token is not available.
+  - Response body contains an appropriate error message indicating that the token is not available.
  
 ---
 
