@@ -10,7 +10,7 @@ Verify that PATCH /orders/{orderId} correctly changes order details and properly
 
 ### Objective 
 
-Verify that the API rejects an empty customerName
+Verify that the API approvrs changing `customerName`
 
 ### Preconditions
 
@@ -43,7 +43,7 @@ Verify that the API rejects an empty customerName
 
 ### Objective 
 
-Verify that the API rejects an empty customerName.
+Verify that the API rejects an empty `customerName`
 
 ### Preconditions 
 
@@ -71,7 +71,7 @@ Verify that the API rejects an empty customerName.
 
 ### Objective
 
-Verify that the API rejects numeric value for customerName.
+Verify that the API rejects numeric value for `customerName`
 
 ### Preconditions 
 - API is available
@@ -102,7 +102,7 @@ Verify that the API rejects numeric value for customerName.
 
 ### Objective
 
-Verify that the API rejects boolean value for customerName.
+Verify that the API rejects boolean value for `customerName`
 
 ### Preconditions 
 
