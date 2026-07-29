@@ -2,7 +2,7 @@
 
 ## Objective
 
-Verify that endpoint correctly returns orderId, and handle invalid input and authorization errors.
+Verify that GET /orders/{orderId} correctly returns order details and properly handles authorization and invalid input scenarios.
 
 ---
 
@@ -113,7 +113,7 @@ Verify that the API returs Status 404 Not Found
 
 ### Steps
 
-1. Set orderId value to existing order deleting one of signs
+1. Remove one character from a valid orderId.
 2. Send /orders/orderId request
 
 ### Expected result
@@ -133,7 +133,7 @@ Verify that the API returs Status 404 Not Found
 
 ### Steps
 
-1. Set orderId empty value  
+1. Leave the orderId path parameter empty
 2. Send /orders/orderId request
 
 ### Expected result
