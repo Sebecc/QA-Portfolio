@@ -25,7 +25,7 @@
 {
     "id": "9SoBrQX0LeIW4v4ibeTep",
     "bookId": "1",
-    "customerName": Brandi Kreiger,
+    "customerName": "Brandi Kreiger",
     "quantity": 1,
     "timestamp": 1785168450238
 }
@@ -75,7 +75,7 @@
 {
     "id": "9SoBrQX0LeIW4v4ibeTep",
     "bookId": "1",
-    "customerName": true,
+    "customerName": True,
     "quantity": 1,
     "timestamp": 1785168450238
 }
