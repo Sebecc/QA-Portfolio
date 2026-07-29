@@ -1,6 +1,7 @@
 # PATCH_update_an_order RESULTS
 
 ## Summary
+Verify that PATCH /orders/{orderId} correctly changes order details and properly handles authorization and invalid input scenarios.
 
 ## Verified
 
