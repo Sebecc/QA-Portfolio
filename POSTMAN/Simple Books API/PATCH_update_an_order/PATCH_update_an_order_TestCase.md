@@ -22,8 +22,7 @@ Verify that the API accepts changing `customerName`
 
 1. Copy one valid order ID from the GET /orders response.
 2. Paste the ID into PATCH /orders/{orderId}.
-3. 
-Set the request body to:
+3. Set the request body to:
 ```json
   {
     "customerName": "{{$randomFullName}}"
