@@ -32,14 +32,3 @@ The goal of this project is to demonstrate practical REST API testing skills, in
 Simple Books API
 
 ---
-
-## Project structure
-
-```
-SimpleBooksAPI
-│
-├── README.md
-├── Postman
-├── TestCases
-└── Screenshots
-```
