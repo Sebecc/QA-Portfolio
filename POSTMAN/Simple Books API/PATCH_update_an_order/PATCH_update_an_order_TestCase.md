@@ -20,10 +20,10 @@ Verify that the API accepts changing `customerName`
 
 ### Steps
 
-1. Copy one of "id" from Get all orders request
-2. Paste the "id" into PATCH /orders/{orderId}
+1. Copy one valid order ID from the GET /orders response.
+2. Paste the ID into PATCH /orders/{orderId}.
 3. 
-Request body should in JSON format in following order:
+Set the request body to:
 ```json
   {
     "customerName": "{{$randomFullName}}"
@@ -34,14 +34,14 @@ Request body should in JSON format in following order:
 ### Expected result
 
 - Status code is 204 No Content
-- Response body contains nothing in return:
+- Response body is empty.
 ```json
 
 ```
 
 ### Validation
 
-- Get validation from GET /orders/{orderId} that name is changed
+- Verify using GET /orders/{orderId} that customerName has been updated.
 
 ---
 
@@ -60,7 +60,7 @@ Verify that the API rejects an empty `customerName`
 
 ### Steps
 
-1. Request body should in JSON format in following order:
+1. Set the request body to:
 ```json
 {
   "customerName": ""
@@ -87,7 +87,7 @@ Verify that the API rejects numeric value for `customerName`
 
 ### Steps
 
-1. Request body should in JSON format in following order:
+1. Set the request body to:
 ```json
 {
   "customerName": 123
@@ -119,7 +119,7 @@ Verify that the API rejects boolean value for `customerName`
 
 ### Steps
 
-1. Request body should in JSON format in following order:
+1. Set the request body to:
 ```json
 {
   "customerName": true
@@ -175,7 +175,7 @@ Verify that the API rejects a request JSON format is empty.
 
 ### Steps
 
-1. Request body should in JSON format in following order:
+1. Set the request body to:
 ```json
 {
 
