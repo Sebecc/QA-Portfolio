@@ -75,7 +75,7 @@
 {
     "id": "9SoBrQX0LeIW4v4ibeTep",
     "bookId": "1",
-    "customerName": True,
+    "customerName": true,
     "quantity": 1,
     "timestamp": 1785168450238
 }
