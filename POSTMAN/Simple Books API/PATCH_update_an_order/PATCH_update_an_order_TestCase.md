@@ -43,7 +43,7 @@ Verify that the API rejects an empty customerName
 
 ### Objective 
 
-Verify that the API returns Status 400 Bad Request after changing details without string of characters
+Verify that the API rejects an empty customerName.
 
 ### Preconditions 
 
