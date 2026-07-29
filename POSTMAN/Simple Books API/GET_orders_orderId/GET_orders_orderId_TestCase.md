@@ -29,11 +29,11 @@ Verify that the API returns status 200 OK for a valid order
 - Resonse body contains e.g:
 ```json
 {
-    "id": "9SoBrQX0LeIW4v4ibeTep",
-    "bookId": "1",
-    "customerName": "Jaś",
-    "quantity": 1,
-    "timestamp": 1785168450238
+    "id",
+    "bookId",
+    "customerName",
+    "quantity",
+    "timestamp"
 }
 ```
 
