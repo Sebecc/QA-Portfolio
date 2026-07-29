@@ -8,22 +8,22 @@ Verify that endpoint correctly returns orderId, and handle invalid input and aut
 
 ## Test Case 1
 
-# Objective 
+### Objective 
 
 Verify that the API returns status 200 OK for a valid order
 
-# Preconditions
+### Preconditions
 
 - API is available
 - Valid authorization token is available
 
-# Steps
+### Steps
 
 1. Copy one of "id" from Get all orders request
 2. Paste the "id" into Path Variable -> orderId -> Value
 3. Send /orders/:orderId request
 
-# Expected result
+### Expected result
 
 - Status code is 200 OK
 - Resonse body contains e.g:
@@ -41,21 +41,21 @@ Verify that the API returns status 200 OK for a valid order
 
 ## Test Case 2
 
-# Objective 
+### Objective 
 
 Verify that the API returns Status 401 Unauthorized
 
-# Preconditions 
+### Preconditions 
 
 - API is available
 - Valid authorization token is not available
 
-# Steps
+### Steps
 
 1. Revoke Authorization Token
 2. Send /orders/orderId request
 
-# Expected Result
+### Expected Result
 
 - API returns Status 401 Unauthorized
 
@@ -63,20 +63,20 @@ Verify that the API returns Status 401 Unauthorized
 
 ## Test Case 3 
 
-# Objective
+### Objective
 
 Verify that the API returns Status 401 Unauthorized
 
-# Preconditions 
+### Preconditions 
 - API is available
 - Invalid authorization token is available
 
-# Steps
+### Steps
 
 1. Change to invalid Authorization Token
 2. Send /orders/orderId request
 
-# Expected Result
+### Expected Result
 
 - API returns Status 401 Unauthorized
 
@@ -86,17 +86,17 @@ Verify that the API returns Status 401 Unauthorized
 
 Verify that the API returs Status 404 Not Found
 
-# Precondtions
+### Precondtions
 
 - API is available
 - Valid authorization token is available
 
-# Steps
+### Steps
 
 1. Set orderId value to "1"
 2. Send /orders/orderId request
 
-# Expected result
+### Expected result
 
 - API returns Status 404 Not Found
 
@@ -111,12 +111,12 @@ Verify that the API returs Status 404 Not Found
 - API is available
 - Valid authorization token is available
 
-# Steps
+### Steps
 
 1. Set orderId value to existing order deleting one of signs
 2. Send /orders/orderId request
 
-# Expected result
+### Expected result
 
 - API returns Status 404 Not Found
 
@@ -126,17 +126,17 @@ Verify that the API returs Status 404 Not Found
 
 Verify that the API returs Status 404 Not Found
 
-# Precondtions
+### Precondtions
 
 - API is available
 - Valid authorization token is available
 
-# Steps
+### Steps
 
 1. Set orderId empty value  
 2. Send /orders/orderId request
 
-# Expected result
+### Expected result
 
 - API returns Status 404 Not Found
 
