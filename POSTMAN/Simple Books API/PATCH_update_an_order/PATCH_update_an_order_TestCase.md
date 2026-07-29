@@ -10,7 +10,7 @@ Verify that PATCH /orders/{orderId} correctly changes order details and properly
 
 ### Objective 
 
-Verify that the API approvrs changing `customerName`
+Verify that the API accepts changing `customerName`
 
 ### Preconditions
 
@@ -22,7 +22,14 @@ Verify that the API approvrs changing `customerName`
 
 1. Copy one of "id" from Get all orders request
 2. Paste the "id" into PATCH /orders/{orderId}
-3. Send PATCH /orders/{orderId}
+3. 
+Request body should in JSON format in following order:
+```json
+  {
+    "customerName": "{{$randomFullName}}"
+  }
+```
+4. Send PATCH /orders/{orderId}
 
 ### Expected result
 
