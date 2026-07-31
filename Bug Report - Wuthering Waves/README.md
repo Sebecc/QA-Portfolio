@@ -37,6 +37,9 @@ Medium
 
 Medium
 
-## Evidance
+## Evidence
 
-See Bug_Video_Wuthering_Waves.mp4
+See 
+- Bug_Video_Wuthering_Waves_1.mp4
+- Bug_Video_Wuthering_Waves_2.mp4
+- Bug_Video_Wuthering_Waves_3.mp4
