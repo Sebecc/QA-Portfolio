@@ -45,6 +45,6 @@ Medium
 ## Evidence
 
 See 
-- Bug_Video_Wuthering_Waves_1.mp4
-- Bug_Video_Wuthering_Waves_2.mp4
-- Bug_Video_Wuthering_Waves_3.mp4
+- Video 1 – Control test using another character (issue not reproduced)
+- Video 2 – Bug reproduction using Lynae
+- Video 3 – Second successful reproduction using Lynae
