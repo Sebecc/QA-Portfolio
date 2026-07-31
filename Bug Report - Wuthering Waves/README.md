@@ -46,10 +46,16 @@ Medium
 
 See videos
 - Video 1 – Control test using another character (issue not reproduced)
+
+
   ![Evidence Video 1](Video%20Evidence/01_Other_Character_No_Issue.gif)
   
 - Video 2 – Bug reproduction using Lynae
+
+
 ![Evidence Video 1](Video%20Evidence/02_Lynae_Bug.gif)
 
 - Video 3 – Second successful reproduction using Lynae
+
+  
 ![Evidence Video 1](Video%20Evidence/03_Lynae_Bug_Second_Attempt.gif)
