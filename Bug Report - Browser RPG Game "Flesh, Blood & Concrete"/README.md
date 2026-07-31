@@ -28,9 +28,6 @@ Critical
 ## Priority
 High
 
-## Additional Information
-The stack trace suggests that the issue occurs during graphics renderer initialization, possibly due to a rendering or plugin compatibility issue.
-
 ## Screenshot
 See `startup_crash.png`.
 
