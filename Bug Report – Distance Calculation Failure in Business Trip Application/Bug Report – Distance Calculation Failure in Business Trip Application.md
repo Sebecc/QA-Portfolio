@@ -129,13 +129,3 @@ Possible causes include:
 Further investigation would require backend logs and server-side access.
 
 ---
-
-## Skills Demonstrated
-
-- Manual Testing
-- Bug Reporting
-- Test Documentation
-- Chrome DevTools
-- Network Analysis
-- Browser Storage Inspection
-- Root Cause Analysis
