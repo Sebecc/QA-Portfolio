@@ -92,13 +92,13 @@ The repository contains screenshots documenting the complete scenario.
 Screenshots:
 
 ```
-├── 01_main_menu.png
-├── 02_task_list.png
-├── 03_click_check_distance.png
-├── 04_network_connetion_occured.png
-├── 05_access_denied_session_storage.png
-├── 06_access_denied_local_storage
-├── 07_browser_cookies.png
+- 01_main_menu.png
+- 02_task_list.png
+- 03_click_check_distance.png
+- 04_network_connetion_occured.png
+- 05_access_denied_session_storage.png
+- 06_access_denied_local_storage
+- 07_browser_cookies.png
 ```
 
 ---
