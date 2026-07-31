@@ -48,7 +48,7 @@ See videos
 - Video 1 – Control test using another character (issue not reproduced)
 
 
-  ![Evidence Video 1](Video%20Evidence/01_Other_Character_No_Issue.gif)
+![Evidence Video 1](Video%20Evidence/01_Other_Character_No_Issue.gif)
   
 - Video 2 – Bug reproduction using Lynae
 
