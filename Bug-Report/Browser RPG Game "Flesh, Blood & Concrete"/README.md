@@ -33,3 +33,5 @@ The stack trace suggests that the issue occurs during graphics renderer initiali
 
 ## Screenshot
 See `startup_crash.png`.
+
+![startup_crush](/Browser%20RPG%20Game%20"Flesh%2C%20Blood%20%26%20Concrete"/startup_crash.png)
