@@ -9,7 +9,7 @@ The issue occurs when playing as Lynae. Teleporting during gliding causes the pl
 - Platform: PC
 - Operating System: Windows 11
 - Game Version: 3.2
-- Reproducibility: Reproducibility: 2/2 
+- Reproducibility: 2/2 
 
 ## Preconditions
 
