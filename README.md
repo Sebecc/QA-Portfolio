@@ -1,18 +1,8 @@
-# QA-Portfolio
+# Manual Tester, QA - Portfolio
 Portfolio of bug reports and QA documentation.
 
 # QA Portfolio
 
-Hello! My name is Sebastian and I am an aspiring QA Tester with a background in Game Design and technical troubleshooting.
+Hello! My name is Sebastian and I am an aspiring QA and Manual Tester with a background in Game Design and technical troubleshooting.
 
-This repository contains examples of bug reports and testing documentation created as part of my journey toward a professional career in Quality Assurance.
-
-## Skills demonstrated
-- Bug reporting
-- Reproduction step creation
-- Severity and priority assessment
-- Test documentation
-- Analytical thinking
-- Exploratory testing
-
-More reports will be added over time.
+This repository contains examples of bug reports and testing documentation created as part of my journey toward a professional career in Quality Assurance and testing
