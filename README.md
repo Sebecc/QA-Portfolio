@@ -1,7 +1,7 @@
 # Manual Tester, QA - Portfolio
 Portfolio of bug reports and QA documentation.
 
-# QA Portfolio
+# Portfolio
 
 Hello! My name is Sebastian and I am an aspiring QA and Manual Tester with a background in Game Design and technical troubleshooting.
 
