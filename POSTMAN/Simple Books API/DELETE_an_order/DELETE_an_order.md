@@ -57,7 +57,7 @@ DELETE /orders/{orderId}
 **Screenshot**
 
 <p align="center">
-<img src="../DELETE_an_order//DELETE_an_order_TestCase1" width="80%">
+<img src="../DELETE_an_order/DELETE_an_order_TestCase1.png" width="80%">
 </p>
 
 ---
@@ -85,7 +85,7 @@ GET /orders/{orderId}
 **Screenshot**
 
 <p align="center">
-<img src="../DELETE_an_order//DELETE_an_order_TestCase1" width="80%">
+<img src="../DELETE_an_order/DELETE_an_order_TestCase2.png" width="80%">
 </p>
 
 ---
@@ -113,7 +113,7 @@ DELETE /orders/*&@#!...
 **Screenshot**
 
 <p align="center">
-<img src="../DELETE_an_order//DELETE_an_order_TestCase1" width="80%">
+<img src="../DELETE_an_order/DELETE_an_order_TestCase3.png" width="80%">
 </p>
 
 ---
