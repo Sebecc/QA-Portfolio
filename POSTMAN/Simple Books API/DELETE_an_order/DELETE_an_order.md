@@ -22,19 +22,19 @@ Verify that the API correctly deletes an existing order and returns proper respo
 
 | ID | Scenario | Expected | Actual | Status | Evidence |
 |----|----------|----------|--------|--------|----------|
-| Test Case 1 | Delete existing order | 204 No Content | 204 No Content | ✅ Pass | DELETE_an_order_TestCase1 |
-| Test Case 2 | Verify deleted order | 404 Not Found | 404 Not Found | ✅ Pass | DELETE_an_order_TestCase2 |
-| Test Case 3 | Delete without order ID | 404 Not Found | 404 Not Found | ✅ Pass | - |
-| Test Case 4 | Delete non-existing order | 404 Not Found | 404 Not Found | ✅ Pass | - |
-| Test Case 5 | Delete using text as ID | 404 Not Found | 404 Not Found | ✅ Pass | - |
-| Test Case 6 | Delete using special characters | 400 Bad Request | 400 Bad Request | ✅ Pass | DELETE_an_order_TestCase3 |
-| Test Case 7 | Delete without authorization | 401 Unauthorized | Not Tested | ⏳ | - |
+| Test Case  1 | Delete existing order | 204 No Content | 204 No Content | ✅ Pass | DELETE_an_order_TestCase1 |
+| Test Case  2 | Verify deleted order | 404 Not Found | 404 Not Found | ✅ Pass | DELETE_an_order_TestCase2 |
+| Test Case  3 | Delete without order ID | 404 Not Found | 404 Not Found | ✅ Pass | - |
+| Test Case  4 | Delete non-existing order | 404 Not Found | 404 Not Found | ✅ Pass | - |
+| Test Case  5 | Delete using text as ID | 404 Not Found | 404 Not Found | ✅ Pass | - |
+| Test Case  6 | Delete using special characters | 400 Bad Request | 400 Bad Request | ✅ Pass | DELETE_an_order_TestCase3 |
+| Test Case  7 | Delete without authorization | 401 Unauthorized | Not Tested | ⏳ | - |
 
 ---
 
 ## Test Execution
 
-### TC-01 - Delete existing order
+### Test Case 1 - Delete existing order
 
 **Request**
 
@@ -62,7 +62,7 @@ DELETE /orders/{orderId}
 
 ---
 
-### TC-02 - Verify deleted order
+### Test Case 2 - Verify deleted order
 
 **Request**
 
@@ -90,7 +90,7 @@ GET /orders/{orderId}
 
 ---
 
-### TC-06 - Delete using special characters
+### Test Case 6 - Delete using special characters
 
 **Request**
 
