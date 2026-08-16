@@ -43,3 +43,5 @@ All tests passed successfully.
 
 -   Status code: `201 Created`
 -   Test results: `3/3 PASSED`
+
+![08_test_assertion](../API_testing/Screenshoots/08_post_submit_order_success.md.png)
