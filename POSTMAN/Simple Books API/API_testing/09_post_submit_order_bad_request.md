@@ -41,5 +41,5 @@ pm.test("Response time below 500 ms", () => {
 Test passed successfully.
 
 -   Status code: `400 Bad Request`
--   Response Time `below 500 ms`
+-   Response Time: `below 500 ms`
 -   Test results: `2/2 PASSED`
