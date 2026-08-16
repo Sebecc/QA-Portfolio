@@ -43,3 +43,5 @@ Test passed successfully.
 -   Status code: `400 Bad Request`
 -   Response Time: `below 500 ms`
 -   Test results: `2/2 PASSED`
+
+![09_test_assertion](../API_testing/Screenshoots/09_post_submit_order_bad_request.md.png)
