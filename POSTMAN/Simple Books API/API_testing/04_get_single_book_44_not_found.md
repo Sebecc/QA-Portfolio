@@ -33,3 +33,6 @@ All tests passed successfully.
 
 -   Status code: `404 Not Found`
 -   Test results: `2/2 PASSED`
+
+
+![04_test_assertion](../API_testing/Screenshoots/04_get_single_book_44_not_found.md.png)
