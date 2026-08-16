@@ -8,8 +8,8 @@
 
 ``` json
 {
-    "bookId": 1,
-    "customerName": "Robert"
+  "bookId": "1,
+  "customerName": "Robert"
 }
 ```
 
@@ -27,6 +27,13 @@ Invalid request resulting in a `400 Bad Request` response.
 pm.test("Status code is 400 Bad request", () => {
     pm.response.to.have.status(400);
 });
+
+pm.test("Response time below 500 ms", () => {
+
+    const response = pm.response.json();
+
+    pm.expect(pm.response.responseTime).to.be.below(500);
+})
 ```
 
 ## Result
@@ -34,4 +41,5 @@ pm.test("Status code is 400 Bad request", () => {
 Test passed successfully.
 
 -   Status code: `400 Bad Request`
--   Test results: `1/1 PASSED`
+-   Response Time `below 500 ms`
+-   Test results: `2/2 PASSED`
