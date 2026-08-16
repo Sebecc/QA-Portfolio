@@ -33,3 +33,5 @@ All tests passed successfully.
 
 -   Status code: `200 OK`
 -   Test results: `2/2 PASSED`
+
+![03_test_assertion](../API_testing/Screenshoots/03_get_single_book_2.md.png)
