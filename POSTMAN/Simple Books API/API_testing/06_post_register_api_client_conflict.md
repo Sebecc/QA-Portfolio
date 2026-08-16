@@ -26,3 +26,6 @@ Test passed successfully.
 
 -   Status code: `409 Conflict`
 -   Test results: `1/1 PASSED`
+
+
+![06_test_assertion](../API_testing/Screenshoots/06_post_register_api_client_conflict.md.png)
