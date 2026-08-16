@@ -51,7 +51,7 @@ All tests passed successfully.
 * Status code: `200 OK`
 * Test results: `3/3 PASSED`
 
-![10_test_assertion](../Screenshoots/10_get_all_orders.md.png)
+![10_test_assertion](../API_testing/Screenshoots/10_get_all_orders.md.png)
 
 
 
