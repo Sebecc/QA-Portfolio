@@ -30,4 +30,4 @@ All tests passed successfully.
 -   Status code: `200 OK`
 -   Test results: `2/2 PASSED`
 
-![01_test_assertion](Screenshots/01_get_status.md.png)
+![01_test_assertion](Simple%20Books%20API/API_testing/Screenshoots/01_get_status.md.png)
