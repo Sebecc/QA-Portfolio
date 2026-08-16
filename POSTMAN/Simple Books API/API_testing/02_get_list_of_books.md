@@ -29,3 +29,5 @@ All tests passed successfully.
 
 -   Status code: `200 OK`
 -   Test results: `2/2 PASSED`
+
+![02_test_assertion](../API_testing/Screenshoots/02_get_list_of_books.md.png)
