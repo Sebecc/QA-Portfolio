@@ -94,4 +94,4 @@ All automated tests passed successfully.
 
 ## Screenshot
 
-![GET Get an Order – Test Results](./images/get-order-tests.png)
+![11_test_assertion](../API_testing/Screenshoots/11_get_an_order.md.png)
