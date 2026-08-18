@@ -20,4 +20,4 @@ The `orderId` generated during the POST request is stored as a Collection Variab
 * Passed: **12**
 * Failed: **0**
 
-![Collection Runner Results](./screenshots/collection-runner-results.png)
+![15_test_assertion](../API_testing/Screenshoots/15_collection_runner.md.png)
