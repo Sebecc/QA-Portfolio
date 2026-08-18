@@ -58,4 +58,4 @@ pm.test("Response time is below 500 ms", () => {
 
 All tests passed successfully.
 
-![PATCH Update Order Tests Passed](./images/update-order-tests-passed.png)
+![12_test_assertion](../API_testing/Screenshoots/12_patch_update_an_order.md.png)
